@@ -13,7 +13,6 @@ class Library
 	public:
 		Library();
 		~Library();
-		void Run();
 		void AddBook(Book* book);
 		void RemoveBook(Book* book);
 		void BorrowABook(Book* book);
